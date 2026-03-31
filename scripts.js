@@ -12,6 +12,7 @@
       }
     };
  
+    // function to display summer tree when user clicks on winter tree
     function showImage(treeKey) {
       // Look up the tree data
       const tree = trees[treeKey];
