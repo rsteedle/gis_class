@@ -34,4 +34,3 @@
       // Add 'selected' to the clicked tree
       event.currentTarget.classList.add('selected');
     }
-
