@@ -69,11 +69,33 @@ h1 {
   text-align: center;
 }
  
+/* Wrapper to position the text over the image */
+#summer-pic-container {
+  position: relative;
+  display: inline-block;
+}
+ 
 #popup img {
   width: 200px;
   height: 200px;
   object-fit: cover;
   border-radius: 8px;
+  display: block;
+}
+ 
+/* "Spring is coming" text overlay */
+#summer-pic-container .spring-label {
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-family: "Comic Sans MS";
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  pointer-events: none;
 }
  
 /* Close button inside popup */
@@ -92,3 +114,4 @@ h1 {
 #popup-close:hover {
   background: #e09a8b;
 }
+ 
